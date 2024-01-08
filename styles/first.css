@@ -1,14 +1,38 @@
 .bannar {
-  margin-left: 250px;
+  margin-left: 80px;
   margin-bottom: 180px;
+  height: 600px;
+  width: 1320px;
+  background-image: url("../resources/Banner Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  border-radius: 16px;
 }
-.OFF {
+.banner-gradient {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-gradient span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.off {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.holidays {
   color: red;
 }
-.HOLIDAYS {
-  color: red;
-}
-.CENTER {
+.center {
   align-items: center;
   text-align: center;
 }
@@ -27,23 +51,50 @@
   line-height: 56px; /* 175% */
   text-transform: capitalize;
 }
+.Invitation h3 span {
+  color: red;
+}
 .button {
-  background-color: red;
   display: inline-flex;
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  border-radius: 8px;
+  color: white;
+  background: #f00;
 }
 .offer {
   display: flex;
   align-items: center;
   margin-top: 100px;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+.right-side {
+  width: 300px;
+}
+
+.side-image {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.side-image span {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.side-image img {
+  width: 120px;
 }
 
 .sale {
   color: red;
+  font-family: Merriweather;
 }
 .function {
   text-align: center;
@@ -66,6 +117,9 @@
   margin-left: 585px;
   margin-top: 200px;
   margin-left: 580px;
+}
+.rec2 {
+  margin-left: 80px;
 }
 .bestgifts {
   color: #f00;
@@ -104,4 +158,72 @@
   display: flex;
   align-items: center;
   margin-left: 100px;
+}
+.email {
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.email-pic {
+  text-align: center;
+}
+.email side-text {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+}
+
+.last {
+  background: rgba(255, 0, 0, 0.05);
+  width: 1280px;
+  height: 300px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-left: 100px;
+  color: rgb(7, 7, 7);
+  margin-bottom: 50px;
+}
+.add {
+  margin-right: 600px;
+}
+.numbers {
+  margin-right: 300px;
+}
+.last1 {
+  width: 1457px;
+  height: 400px;
+  flex-shrink: 0;
+  display: flex;
+  background: #070211;
+  color: white;
+  justify-content: space-around;
+  width: 1000x;
+  height: 200px;
+  flex-shrink: 0;
+}
+.social-media {
+  text-align: center;
+  align-items: center;
+
+  background: #070211;
+  margin: auto;
+}
+.footer {
+  justify-content: space-around;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+
+  line-height: normal;
+  background: #070211;
+  display: flex;
+  margin: auto;
 }
