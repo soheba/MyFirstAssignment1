@@ -37,11 +37,61 @@
   text-align: center;
 }
 .vector {
-  align-items: center;
-  align-content: center;
-  margin-left: 250px;
-  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 180px;
+  height: 600px;
+  width: 1220px;
+  background-image: url("../resources/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: 80px;
+  margin-left: 80px;
+
+  border-radius: 16px;
 }
+.vector-gradient {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vector-gradient span {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-right: 500px;
+  width: 500px;
+}
+.vector-gradient p {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 600px;
+  margin-right: 400px;
+}
+.vector-gradient div {
+  color: #fff;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: 800px;
+  margin-top: 30px;
+}
+
 .Invitation {
   text-align: center;
   font-family: Inter;
@@ -129,6 +179,7 @@
   font-weight: 500;
   line-height: normal;
   margin-left: 100px;
+  margin-top: 80px;
 }
 .protfolio {
   color: #070211;
@@ -210,9 +261,10 @@
 .social-media {
   text-align: center;
   align-items: center;
-
   background: #070211;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .footer {
   justify-content: space-around;
